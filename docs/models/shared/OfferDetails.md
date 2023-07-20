@@ -1,0 +1,10 @@
+# OfferDetails
+
+
+## Fields
+
+| Field                                                                 | Type                                                                  | Required                                                              | Description                                                           | Example                                                               |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| `cashbackDetails`                                                     | [CashbackDetails](../../models/shared/CashbackDetails.md)             | :heavy_minus_sign:                                                    | N/A                                                                   |                                                                       |
+| `discountDetails`                                                     | [DiscountDetails](../../models/shared/DiscountDetails.md)             | :heavy_minus_sign:                                                    | N/A                                                                   |                                                                       |
+| `offerType`                                                           | [OfferDetailsOfferType](../../models/shared/OfferDetailsOfferType.md) | :heavy_check_mark:                                                    | Offer Type for the Offer.                                             | DISCOUNT_AND_CASHBACK                                                 |
