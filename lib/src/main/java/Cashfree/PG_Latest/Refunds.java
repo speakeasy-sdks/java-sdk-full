@@ -39,7 +39,7 @@ public class Refunds {
         SerializedBody serializedRequestBody = Cashfree.PG_Latest.utils.Utils.serializeRequestBody(request, "createRefundRequest", "json");
         req.setBody(serializedRequestBody);
 
-        req.addHeader("Accept", "application/json;q=1, application/json;q=0");
+        req.addHeader("Accept", "application/json");
         req.addHeader("user-agent", String.format("speakeasy-sdk/%s %s %s %s", this.sdkConfiguration.language, this.sdkConfiguration.sdkVersion, this.sdkConfiguration.genVersion, this.sdkConfiguration.openapiDocVersion));
         java.util.Map<String, java.util.List<String>> headers = Cashfree.PG_Latest.utils.Utils.getHeaders(request);
         if (headers != null) {
@@ -98,7 +98,7 @@ public class Refunds {
         req.setMethod("GET");
         req.setURL(url);
 
-        req.addHeader("Accept", "application/json;q=1, application/json;q=0");
+        req.addHeader("Accept", "application/json");
         req.addHeader("user-agent", String.format("speakeasy-sdk/%s %s %s %s", this.sdkConfiguration.language, this.sdkConfiguration.sdkVersion, this.sdkConfiguration.genVersion, this.sdkConfiguration.openapiDocVersion));
         java.util.Map<String, java.util.List<String>> headers = Cashfree.PG_Latest.utils.Utils.getHeaders(request);
         if (headers != null) {
@@ -157,7 +157,7 @@ public class Refunds {
         req.setMethod("GET");
         req.setURL(url);
 
-        req.addHeader("Accept", "application/json;q=1, application/json;q=0");
+        req.addHeader("Accept", "application/json");
         req.addHeader("user-agent", String.format("speakeasy-sdk/%s %s %s %s", this.sdkConfiguration.language, this.sdkConfiguration.sdkVersion, this.sdkConfiguration.genVersion, this.sdkConfiguration.openapiDocVersion));
         java.util.Map<String, java.util.List<String>> headers = Cashfree.PG_Latest.utils.Utils.getHeaders(request);
         if (headers != null) {
